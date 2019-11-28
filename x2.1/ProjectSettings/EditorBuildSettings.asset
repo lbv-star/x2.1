@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/x21.unity
     guid: c597e38fa94e6fc419c0b45d5ab3de82
+  - enabled: 1
+    path: Assets/the first.unity
+    guid: cdc470956b8d9664fac6f230b6e5e5e7
   m_configObjects: {}
