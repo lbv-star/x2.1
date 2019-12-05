@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class MenuButtons : MonoBehaviour
 {
-    public GameObject menu;
-    public GameObject rules;
-    public GameObject exit;
+    [SerializeField] GameObject menu;
+    [SerializeField] GameObject rules;
+    [SerializeField] GameObject exit;
 
     // Start is called before the first frame update
     void Start()
