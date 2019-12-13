@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2141,7 +2141,6 @@ GameObject:
   - component: {fileID: 912012043}
   - component: {fileID: 912012045}
   - component: {fileID: 912012044}
-  - component: {fileID: 912012046}
   m_Layer: 5
   m_Name: MenuBackground
   m_TagString: Untagged
@@ -2203,21 +2202,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912012042}
   m_CullTransparentMesh: 0
---- !u!114 &912012046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 912012042}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 570a31eae18f5d54596fab05a0fbd92f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  menu: {fileID: 528976788}
-  rules: {fileID: 1457180477}
-  exit: {fileID: 0}
 --- !u!1 &921419648
 GameObject:
   m_ObjectHideFlags: 0
