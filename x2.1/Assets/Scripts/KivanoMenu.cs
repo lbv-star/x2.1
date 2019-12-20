@@ -9,7 +9,6 @@ public class KivanoMenu : MonoBehaviour
     [SerializeField] GameObject U;
     [SerializeField] GameObject P;
     [SerializeField] GameObject Canvas;
-    [SerializeField] GameObject exit;
     [SerializeField] GameObject cylinderWK;
     [SerializeField] GameObject cylinderBK;
     [SerializeField] GameObject cylinderZK;
