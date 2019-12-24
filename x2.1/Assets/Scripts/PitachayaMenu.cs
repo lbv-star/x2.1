@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KivanoMenu : MonoBehaviour
+public class PitachayaMenu : MonoBehaviour
 {
     [SerializeField] GameObject menu;
     [SerializeField] GameObject PC;
@@ -50,10 +50,10 @@ public class KivanoMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void pushPC ()
+    public void pushPC()
     {
         menu.SetActive(false);
         Canvas.SetActive(true);
@@ -93,10 +93,5 @@ public class KivanoMenu : MonoBehaviour
         P.SetActive(false);
         Canvas.SetActive(false);
         menu.SetActive(true);
-    }
-
-    public void pushExit ()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("the first");
     }
 }
